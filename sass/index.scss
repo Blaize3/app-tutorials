@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 
 // 1. Config files and helpers
-
+@import 'abstracts/color';
+@import 'abstracts/type';
 
 // 2. Vendors
 @import 'vendor/normalize';
 
 
 // 3. Base Styles
+@import 'base/base';
 
 
 // 4. Layout
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/hero';
 
 
 
